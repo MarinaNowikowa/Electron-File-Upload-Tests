@@ -8,7 +8,7 @@ Before running the tests, ensure you have:
 
 1. **Node.js** (version 16 or higher)
 2. **npm** package manager
-3. **Electron QA Uploader desktop application** installed at `/Applications/QA Uploader.app/Contents/MacOS/QA Uploader`
+3. **Electron QA Uploader desktop application** (installed)
 4. **Git** (for cloning the repository)
 
 ## 🚀 Quick Start
@@ -43,13 +43,6 @@ EXPECT_TIMEOUT=30000
 ```bash
 npm test
 ```
-
-The test will:
-- Launch the Electron application
-- Automatically log in using credentials from `.env`
-- Generate test files (`.txt` and `.json`)
-- Simulate folder upload via native dialog mocking
-- Validate upload results
 
 ## 🧪 Test Details
 
