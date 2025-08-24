@@ -25,7 +25,7 @@ Create a `.env` file with your credentials/settings:
 
 ```bash
 # Electron App Configuration
-APP_PATH=path_to_your_local_Electron_app"
+APP_PATH=path_to_your_local_Electron_app
 
 # Authentication
 APP_LOGIN=your_login
@@ -72,4 +72,3 @@ The test will:
    - Monitors upload progress
    - Validates upload history
    - Checks file size display
-   
