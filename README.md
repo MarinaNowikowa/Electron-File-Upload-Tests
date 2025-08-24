@@ -72,3 +72,4 @@ The test will:
    - Monitors upload progress
    - Validates upload history
    - Checks file size display
+   
